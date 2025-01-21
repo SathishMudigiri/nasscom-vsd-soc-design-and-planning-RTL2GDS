@@ -147,6 +147,12 @@ Intellectual properties are pre designed macros provided by different entities f
     ![Image](https://github.com/user-attachments/assets/03031d37-129c-4498-ab3a-2ff8cafb8b19)
     ![Image](https://github.com/user-attachments/assets/3f750465-d126-49f9-8864-9a74281ae490)
   
+ RISC-V is an open-standard Instruc on Set Architecture (ISA) rooted in established Reduced Instruc on Set 
+ Compu ng (RISC) principles. Its open-source nature allows for extensive customiza on and adaptability, making it a 
+ preferred choice for modern System on Chip (SoC) designs. In this workshop, par cipants will learn to u lize the 
+ OpenLANE flow to transform a high-level C program into a hardware layout, encompassing steps from logic synthesis 
+ to physical design, culmina ng in a ready-for-fabrica on GDSII file.
+  
 - ![Image](https://github.com/user-attachments/assets/79d5ee54-5bf0-4345-8b64-e75c7415afb3)
 
 - ![Image](https://github.com/user-attachments/assets/1dc4d72e-fece-4574-8ca2-d967d1f8c459)
