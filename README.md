@@ -43,8 +43,13 @@ The transformation from RTL to GDSII encompasses
   ![Image](https://github.com/user-attachments/assets/4394b974-0b16-4c8f-a386-d162f05b3431)
 
 - **Placement**:  Positioning standard cells within the floorplan
+<br>Placement is used to place the cells on the floorplan rows, alogned with the sites. It is done in 2 steps.
 
-![Image](https://github.com/user-attachments/assets/98c993a1-786b-4f30-925d-aa934a41e2bc)
+The first step is Global placement in which the flow places the standard cells in optimal position even when they overlap with each other.
+
+Then, Detailed placement takes place which alters the position of the global placement so they do not overlap.
+
+  ![Image](https://github.com/user-attachments/assets/98c993a1-786b-4f30-925d-aa934a41e2bc)
 
 - **Clock Tree Synthesis (CTS)**: Designing the clock distribution network
 - **Routing**: Establishing interconnections between components.
