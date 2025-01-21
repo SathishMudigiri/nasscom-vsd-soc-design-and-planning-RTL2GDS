@@ -28,6 +28,9 @@ Application-Specific Integrated Circuits (ASICs) are custom-designed chips tailo
 The transformation from RTL to GDSII encompasses
 
 - **RTL Design**: Defining the desired functionality using a hardware description language
+
+    ![Image](https://github.com/user-attachments/assets/e53d1391-c2c8-4938-bebe-788e0731e034)
+  
 - **Synthesis**:
   Converting RTL code into a gate-level netlist  <br>
   The synthesis converts the RTL to a circuit out of components from the standard cell library. There are multiple different standard cells. Standard cells of the same component can have different areas based on the use case.
@@ -66,7 +69,7 @@ The transformation from RTL to GDSII encompasses
 - **Sign-Off**: Verifying the design meets all specifications before fabrication
 <br>The Sign Off contains the Physical Verifications like Design Rule Check(DRC) and Layout Vs. Schematic(LVS).
 
-It also does the timing verification using Static Timing Analysis.
+    It also does the timing verification using Static Timing Analysis.
 
 ## Open-Source Tools Utilized
 
