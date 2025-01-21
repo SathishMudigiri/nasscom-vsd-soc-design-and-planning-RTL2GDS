@@ -35,7 +35,8 @@ The transformation from RTL to GDSII encompasses
   ![Image](https://github.com/user-attachments/assets/b45c7be9-30b3-46be-a596-1a359870ee67)
 
   
-- **Floorplanning/Powerplaning**: Determining the physical placement of components on the chip
+- **Floorplanning/Powerplaning**: Determining the physical placement of components on the chip.
+  <br>There are 2 types of Floorplanning namely Chip Foorplanning and Macro Floorplanning. Power planning works on the placement of power sources such as Vdd and ground.
 
 - **Placement**:  Positioning standard cells within the floorplan
 ![Image](https://github.com/user-attachments/assets/98c993a1-786b-4f30-925d-aa934a41e2bc)
