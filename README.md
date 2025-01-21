@@ -29,7 +29,7 @@ The transformation from RTL to GDSII encompasses
 
 - **RTL Design**: Defining the desired functionality using a hardware description language
 - **Synthesis**:
-  Converting RTL code into a gate-level netlist
+  Converting RTL code into a gate-level netlist  <br>
   The synthesis converts the RTL to a circuit out of components from the standard cell library. There are multiple different standard cells. Standard cells of the same component can have different areas based on the use case.
 
   ![Image](https://github.com/user-attachments/assets/b45c7be9-30b3-46be-a596-1a359870ee67)
