@@ -159,21 +159,47 @@ Intellectual properties are pre designed macros provided by different entities f
  Getting to know the various commands:
 
   pwd: It shows the current directory the user is present.
+  
   cd: This command helps the user move from one directory to another.
+  
   ls-ltr: It lists all the sub- directories and files that the directory contains.
+  
   help: This command helps the user with the information for any command the user wants to gain knowledge about.
+  
   clear: This command clears the terminal.
+  
   mkdir: This command creates a new directory.
+  
   There are few key file like libs.ref which contains information about standard cells, IO cells, etc. and libs.tech which contains all the information regarding the 
   EDA tools.
 
   To get into OpenLANE flow we have to set our directory to
-  
-- ![Image](https://github.com/user-attachments/assets/79d5ee54-5bf0-4345-8b64-e75c7415afb3)
 
-- ![Image](https://github.com/user-attachments/assets/1dc4d72e-fece-4574-8ca2-d967d1f8c459)
+  cd /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane
 
-- ![Image](https://github.com/user-attachments/assets/cb1d57b8-2bd2-473f-b936-fbe59bd1ff96)
+  To invoke the OpenLANE flow, we have to give the following commands
+
+   docker # this command enters us into the OpenLANE flow
+
+  ./flow.tcl -interactive
+
+  #We need to open the necessary packages
+   package require openlane 0.9
+
+  #To run any design, we have to prepare it
+  prep -design picorv32a
+
+  #Now, to run the synthesis, give the command
+  run_synthesis
+
+  Once you run the synthesis an new file will be created under the runs directory in the picorv32a directory.
+
+  Screenshots of running the code:
+ - ![Image](https://github.com/user-attachments/assets/79d5ee54-5bf0-4345-8b64-e75c7415afb3)
+
+ - ![Image](https://github.com/user-attachments/assets/1dc4d72e-fece-4574-8ca2-d967d1f8c459)
+
+ - ![Image](https://github.com/user-attachments/assets/cb1d57b8-2bd2-473f-b936-fbe59bd1ff96)
   
 
 ### Day 2: Floorplanning Essentials and Library Cell Introduction
