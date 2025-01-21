@@ -145,6 +145,8 @@ Intellectual properties are pre designed macros provided by different entities f
 
   ![Image](https://github.com/user-attachments/assets/74d2ceb4-e6c9-48ab-af91-b5eae98451d3)
   
+- **RISC-V Overview**: Introduction to the RISC-V architecture and its significance in modern SoC designs
+  
 - ![Image](https://github.com/user-attachments/assets/79d5ee54-5bf0-4345-8b64-e75c7415afb3)
 
 - ![Image](https://github.com/user-attachments/assets/1dc4d72e-fece-4574-8ca2-d967d1f8c459)
