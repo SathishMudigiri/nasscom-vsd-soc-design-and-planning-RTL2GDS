@@ -142,7 +142,10 @@ Inside the Core, multiple IP's(Intellectual Property) as well as Macros can be p
 Intellectual properties are pre designed macros provided by different entities for different purposes.
   ![Image](https://github.com/user-attachments/assets/5a789e1b-d057-4dfb-b426-ed40027f3b34)
   ![Image](https://github.com/user-attachments/assets/74d2ceb4-e6c9-48ab-af91-b5eae98451d3)
+  
 - **RISC-V Overview**: Introduction to the RISC-V architecture and its significance in modern SoC designs
+    ![Image](https://github.com/user-attachments/assets/03031d37-129c-4498-ab3a-2ff8cafb8b19)
+    ![Image](https://github.com/user-attachments/assets/3f750465-d126-49f9-8864-9a74281ae490)
   
 - ![Image](https://github.com/user-attachments/assets/79d5ee54-5bf0-4345-8b64-e75c7415afb3)
 
