@@ -140,6 +140,10 @@ The SkyWater 130nm PDK is an open-source process design kit providing the necess
 Inside the Core, multiple IP's(Intellectual Property) as well as Macros can be placed.
 
 Intellectual properties are pre designed macros provided by different entities for different purposes.
+
+  ![Image](https://github.com/user-attachments/assets/5a789e1b-d057-4dfb-b426-ed40027f3b34)
+
+  ![Image](https://github.com/user-attachments/assets/74d2ceb4-e6c9-48ab-af91-b5eae98451d3)
   
 - ![Image](https://github.com/user-attachments/assets/79d5ee54-5bf0-4345-8b64-e75c7415afb3)
 
