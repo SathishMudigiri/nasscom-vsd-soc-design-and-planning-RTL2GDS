@@ -219,6 +219,32 @@ Intellectual properties are pre designed macros provided by different entities f
 ### Day 2: Floorplanning Essentials and Library Cell Introduction
 
 - **Good vs. Bad Floorplans**: Identifying characteristics of effective floorplanning
+
+![Image](https://github.com/user-attachments/assets/ee26608f-9a0c-4aff-b127-c505e033c486)
+
+![Image](https://github.com/user-attachments/assets/71580075-d5be-439d-97bc-544d3ef89316)
+
+![Image](https://github.com/user-attachments/assets/e4f98273-fd96-4262-b4ae-0a0177177812)
+
+![Image](https://github.com/user-attachments/assets/680e8512-71ff-433a-be06-23114d429c4e)
+![Image](https://github.com/user-attachments/assets/292e0161-6cec-40e9-a1bd-54ef5048891d)
+![Image](https://github.com/user-attachments/assets/1bfce38b-cec8-403f-9112-aa6e47d703a1)
+
+![Image](https://github.com/user-attachments/assets/75d014f9-fc26-419a-8f15-007acd087155)
+![Image](https://github.com/user-attachments/assets/abd315a4-82ac-477f-8c6f-ff39f50ea151)
+
+![Image](https://github.com/user-attachments/assets/c0507e3e-3bf4-458d-beae-d924e577d87b)
+
+![Image](https://github.com/user-attachments/assets/e3e5e6db-417f-4f54-b8c8-046a82c6e8dc)
+![Image](https://github.com/user-attachments/assets/afc237e4-ad1a-4223-96fc-f326a6f81e6f)
+![Image](https://github.com/user-attachments/assets/2833ed7d-2da4-4ae0-8528-0dfadf86e3bc)
+![Image](https://github.com/user-attachments/assets/e2cc6b2f-4406-487a-b586-132477ec3c4c)
+![Image](https://github.com/user-attachments/assets/f7a443cb-7d2c-4d64-b01c-96c140f785aa)
+![Image](https://github.com/user-attachments/assets/f3c3f0ba-53ed-48e0-b928-b83636a025e1)
+![Image](https://github.com/user-attachments/assets/e29aeed5-2783-40b2-b5c4-0ec81d9f009d)
+![Image](https://github.com/user-attachments/assets/ef9159fd-a582-499e-a512-13c0c33a42f8)
+![Image](https://github.com/user-attachments/assets/68fb7367-ceb6-45c5-998d-ccd34daee373)
+![Image](https://github.com/user-attachments/assets/b9b4d885-aff9-4751-aced-7b39b8bfb01d)
 - **Library Cells**: Introduction to standard cells and their role in design
 
 ### Day 3: Crafting Library Cells with Magic Layout and Ngspice Characterization
