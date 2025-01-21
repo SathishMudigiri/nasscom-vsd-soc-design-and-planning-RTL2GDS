@@ -61,9 +61,13 @@ The transformation from RTL to GDSII encompasses
 - **Routing**: Establishing interconnections between components.
 <br>
     It is used to implement interconnect using available metal layers. Metal tracks form a routing grid which is huge as it covers the entire chip.
+  
     ![Image](https://github.com/user-attachments/assets/7bbf5fc0-3ae7-4c0c-aa57-cd832938288b)
   
 - **Sign-Off**: Verifying the design meets all specifications before fabrication
+<br>The Sign Off contains the Physical Verifications like Design Rule Check(DRC) and Layout Vs. Schematic(LVS).
+
+It also does the timing verification using Static Timing Analysis.
 
 ## Open-Source Tools Utilized
 
