@@ -143,7 +143,8 @@ Intellectual properties are pre designed macros provided by different entities f
   ![Image](https://github.com/user-attachments/assets/5a789e1b-d057-4dfb-b426-ed40027f3b34)
   ![Image](https://github.com/user-attachments/assets/74d2ceb4-e6c9-48ab-af91-b5eae98451d3)
   
-- **RISC-V Overview**: Introduction to the RISC-V architecture and its significance in modern SoC designs
+ ## RISC-V Overview: 
+   Introduction to the RISC-V architecture and its significance in modern SoC designs
     ![Image](https://github.com/user-attachments/assets/03031d37-129c-4498-ab3a-2ff8cafb8b19)
     ![Image](https://github.com/user-attachments/assets/3f750465-d126-49f9-8864-9a74281ae490)
   
@@ -152,6 +153,21 @@ Intellectual properties are pre designed macros provided by different entities f
  preferred choice for modern System on Chip (SoC) designs. In this workshop, par cipants will learn to u lize the 
  OpenLANE flow to transform a high-level C program into a hardware layout, encompassing steps from logic synthesis 
  to physical design, culmina ng in a ready-for-fabrica on GDSII file.
+
+ ## Get familiar to open-source EDA tools
+
+ Getting to know the various commands:
+
+  pwd: It shows the current directory the user is present.
+  cd: This command helps the user move from one directory to another.
+  ls-ltr: It lists all the sub- directories and files that the directory contains.
+  help: This command helps the user with the information for any command the user wants to gain knowledge about.
+  clear: This command clears the terminal.
+  mkdir: This command creates a new directory.
+  There are few key file like libs.ref which contains information about standard cells, IO cells, etc. and libs.tech which contains all the information regarding the 
+  EDA tools.
+
+  To get into OpenLANE flow we have to set our directory to
   
 - ![Image](https://github.com/user-attachments/assets/79d5ee54-5bf0-4345-8b64-e75c7415afb3)
 
