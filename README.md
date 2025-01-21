@@ -55,6 +55,10 @@ The transformation from RTL to GDSII encompasses
 
 - **Clock Tree Synthesis (CTS)**: Designing the clock distribution network
 <br>It is done to create a clock distribution network used to deliver the clock to all sequential elements with minimum skew.
+<br>
+   ![Image](https://github.com/user-attachments/assets/e8939ec5-2879-4374-a9b7-b7e25339e4a2)
+
+
 
 - **Routing**: Establishing interconnections between components.
 - **Sign-Off**: Verifying the design meets all specifications before fabrication
