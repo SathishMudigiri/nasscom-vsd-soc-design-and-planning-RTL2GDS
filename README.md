@@ -32,9 +32,8 @@ The transformation from RTL to GDSII encompasses
 -
 - Converting RTL code into a gate-level netlist
 - **Floorplanning**: Determining the physical placement of components on the chip
-- **Placement**:
--
--![Image](https://github.com/user-attachments/assets/98c993a1-786b-4f30-925d-aa934a41e2bc)
+- **Placement**:  Positioning standard cells within the floorplan
+![Image](https://github.com/user-attachments/assets/98c993a1-786b-4f30-925d-aa934a41e2bc)
 - Positioning standard cells within the floorplan
 - **Clock Tree Synthesis (CTS)**: Designing the clock distribution network
 - **Routing**: Establishing interconnections between components.
