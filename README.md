@@ -29,7 +29,9 @@ The transformation from RTL to GDSII encompasses
 
 - **RTL Design**: Defining the desired functionality using a hardware description language
 - **Synthesis**:Converting RTL code into a gate-level netlist
-  https://github.com/SathishMudigiri/nasscom-vsd-soc-design-and-planning-RTL2GDS/issues/2#issue-2801249955
+  ![Image](https://github.com/user-attachments/assets/b45c7be9-30b3-46be-a596-1a359870ee67)
+
+![Image](https://github.com/user-attachments/assets/5fc24d0d-72b8-4a3d-9522-99f9d77391e2)
 
 - **Floorplanning**: Determining the physical placement of components on the chip
 - **Placement**:  Positioning standard cells within the floorplan
