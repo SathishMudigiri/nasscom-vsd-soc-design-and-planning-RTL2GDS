@@ -29,8 +29,6 @@ For the RTL IP's, we will be using librecores.org, opencores.org, github.com and
 
 For the PDKS, we will be using Skywater 130nm PDK. SkyWater 130nm PDK is an open source PDK developed by SkyWater and Google in collaboration. PDKs include Process Design Rules like DRC,LVS etc., Device models, Digital Standard Libraries, I/O Libraries and many other things.
 
-For more information on the SkyWater PDK, you can visit github.com/google/skywater-pdk .. It was launched on June 30, 2020. 130nm PDKs are used in 6% of all PSK implementation.
-
 The EDA tools can perform the following processes.
 
  ![Image](https://github.com/user-attachments/assets/4c258d68-313e-4b27-a5b0-2f910a41007d)
