@@ -197,12 +197,139 @@ Intellectual properties are pre designed macros provided by different entities f
   Screenshots of running the code:
   ![Image](https://github.com/user-attachments/assets/d47be14c-0086-48e8-b4b1-f8cc56841456)
   
- - ![Image](https://github.com/user-attachments/assets/79d5ee54-5bf0-4345-8b64-e75c7415afb3)
+  ![Image](https://github.com/user-attachments/assets/79d5ee54-5bf0-4345-8b64-e75c7415afb3)
 
- - ![Image](https://github.com/user-attachments/assets/1dc4d72e-fece-4574-8ca2-d967d1f8c459)
+  ![Image](https://github.com/user-attachments/assets/12019cef-c5b3-4ee0-b95f-cb48d43fb2d4)
 
- - ![Image](https://github.com/user-attachments/assets/cb1d57b8-2bd2-473f-b936-fbe59bd1ff96)
-  
+ # Calculate the flop ratio
+ After running the synthesis, we get the following data
+
+  ![Image](https://github.com/user-attachments/assets/1dc4d72e-fece-4574-8ca2-d967d1f8c459)
+
+  ![Image](https://github.com/user-attachments/assets/cb1d57b8-2bd2-473f-b936-fbe59bd1ff96)
+
+  Using this we have to find the flop ratio.
+
+                                    F
+l
+o
+p
+ 
+R
+a
+t
+i
+o
+=
+N
+u
+m
+b
+e
+r
+ 
+o
+f
+ 
+D
+ 
+F
+l
+i
+p
+ 
+F
+l
+o
+p
+s
+T
+o
+t
+a
+l
+ 
+n
+u
+m
+b
+e
+r
+ 
+o
+f
+ 
+c
+e
+l
+l
+s
+P
+e
+r
+c
+e
+n
+t
+a
+g
+e
+ 
+o
+f
+ 
+D
+F
+F
+′
+s
+=
+F
+l
+o
+p
+ 
+R
+a
+t
+i
+o
+∗
+100
+Therefore flop ratio will be
+
+F
+l
+o
+p
+ 
+R
+a
+t
+i
+o
+=
+1613
+14876
+=
+0.108429685
+P
+e
+r
+c
+e
+n
+t
+a
+g
+e
+=
+0.108429685
+∗
+100
+=
+10.84296854
+
 
 ### Day 2: Floorplanning Essentials and Library Cell Introduction
 
