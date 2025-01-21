@@ -28,7 +28,9 @@ Application-Specific Integrated Circuits (ASICs) are custom-designed chips tailo
 The transformation from RTL to GDSII encompasses
 
 - **RTL Design**: Defining the desired functionality using a hardware description language
-- **Synthesis**: Converting RTL code into a gate-level netlist
+- **Synthesis**:
+-
+- Converting RTL code into a gate-level netlist
 - **Floorplanning**: Determining the physical placement of components on the chip
 - **Placement**: Positioning standard cells within the floorplan
 - **Clock Tree Synthesis (CTS)**: Designing the clock distribution network
