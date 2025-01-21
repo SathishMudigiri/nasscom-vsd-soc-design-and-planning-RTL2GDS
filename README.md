@@ -76,8 +76,8 @@ same component can have different areas based on the use case.
 <br>It is used to implement interconnect using available metal layers. Metal tracks form a routing grid which is huge as it covers the entire chip.
 
   ![Image](https://github.com/user-attachments/assets/839357ea-0eb7-4e56-acd1-19784a149e2f)
-  
-- **Sign-Off**: Verifying the design meets all specifications before fabrication
+
+  - **Sign-Off**: Verifying the design meets all specifications before fabrication
 <br>The Sign Off contains the Physical Verifications like Design Rule Check(DRC) and Layout Vs. Schematic(LVS).
 
     It also does the timing verification using Static Timing Analysis.
@@ -88,7 +88,21 @@ same component can have different areas based on the use case.
 
   The ASIC flow's main goal is to produce a clean GDSII with no human intervention. The operation has 2 modes namely autonomous and interactive.
 
-  ![Image](https://github.com/user-attachments/assets/d740fa84-be02-4ef1-b04f-ab3f04c236bb)
+ ![Image](https://github.com/user-attachments/assets/d740fa84-be02-4ef1-b04f-ab3f04c236bb)
+
+The above image is the OpenLANE ASIC Design Flow.
+
+OpenLANE flow is based in OpenROAD Magic VLSI Layout Tool Fault Yosys QFlow and ABC. OpenLANE uses Regression Testing in which it runs OpenLANE on 70-75 designs and compares the results to the best known ones.
+
+It has Design for Test(DFT) which performs the tasks of Scan Insertion, Automatic Test Pattern Generation, Test Patterns Compaction, Fault Coverage, and Fault Simulation.
+
+In Physical Implementation, it does the Placement and Routing of the cells along with floor/powerplanning, Clock Tree Synthesis and much more
+
+Logic Equivalence Check(LEC) is used to formally confirm that the function did not change after modifying the netlist.
+
+In the flow, we also have to deal with antenna rules violation which can be solved using Bridging or adding an antenna diode cell to leak away the charges.
+
+In the last step, we do Timing verification and Physical verification of the chip.
   
 
 ## Open-Source Tools Utilized
