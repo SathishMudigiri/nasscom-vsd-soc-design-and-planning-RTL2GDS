@@ -82,11 +82,14 @@ same component can have different areas based on the use case.
 
     It also does the timing verification using Static Timing Analysis.
 
-  ## OpenLANE
+## OpenLANE
 
   OpenLANE started as an Open-Source Flow for true Open Source Tape-Out Experiment. They use the striVe family of open everythings.
 
-The ASIC flow's main goal is to produce a clean GDSII with no human intervention. The operation has 2 modes namely autonomous and interactive.
+  The ASIC flow's main goal is to produce a clean GDSII with no human intervention. The operation has 2 modes namely autonomous and interactive.
+
+  ![Image](https://github.com/user-attachments/assets/d740fa84-be02-4ef1-b04f-ab3f04c236bb)
+  
 
 ## Open-Source Tools Utilized
 
