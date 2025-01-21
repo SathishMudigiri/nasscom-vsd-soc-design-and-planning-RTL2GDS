@@ -22,7 +22,8 @@ This repository chronicles the exploration of digital VLSI System on Chip (SoC) 
 ## Introduction to ASIC Design
 
 Application-Specific Integrated Circuits (ASICs) are custom-designed chips tailored for specific applications offering optimized performance and efficiency The design process involves several stages from conceptualization to the final layout ready for fabrication
-<br>We will be using RTL IP's, EDA tools, and PDK data to form an ASIC Design. All these components will be taken from open-source sites as it makes it easier to design the flow.
+<br>
+We will be using RTL IP's, EDA tools, and PDK data to form an ASIC Design. All these components will be taken from open-source sites as it makes it easier to design the flow.
 
 For the RTL IP's, we will be using librecores.org, opencores.org, github.com and many other open-source websites. For EDA tools, we will be using OpenLANE, and OpenRoad. OpenROAD will be used for static timing analysis.
 
@@ -31,6 +32,8 @@ For the PDKS, we will be using Skywater 130nm PDK. SkyWater 130nm PDK is an open
 For more information on the SkyWater PDK, you can visit github.com/google/skywater-pdk .. It was launched on June 30, 2020. 130nm PDKs are used in 6% of all PSK implementation.
 
 The EDA tools can perform the following processes.
+
+ ![Image](https://github.com/user-attachments/assets/4c258d68-313e-4b27-a5b0-2f910a41007d)
 
 ## RTL to GDSII Flow
 
@@ -41,8 +44,9 @@ The transformation from RTL to GDSII encompasses
     ![Image](https://github.com/user-attachments/assets/e53d1391-c2c8-4938-bebe-788e0731e034)
   
 - **Synthesis**:
-  Converting RTL code into a gate-level netlist  <br>
-  The synthesis converts the RTL to a circuit out of components from the standard cell library. There are multiple different standard cells. Standard cells of the same component can have different areas based on the use case.
+Converting RTL code into a gate-level netlist  <br>
+The synthesis converts the RTL to a circuit out of components from the standard cell library. There are multiple different standard cells. Standard cells of the 
+same component can have different areas based on the use case.
 
   ![Image](https://github.com/user-attachments/assets/b45c7be9-30b3-46be-a596-1a359870ee67)
 
