@@ -134,6 +134,12 @@ The SkyWater 130nm PDK is an open-source process design kit providing the necess
   ![Image](https://github.com/user-attachments/assets/acce49eb-d9c1-4170-931a-4f005120ad12)
 
   ![Image](https://github.com/user-attachments/assets/36a559ea-b646-4fd2-849f-a9a31bd2fd05)
+
+ The QFN-48 has PADS, Core, and Die. Pads are mechanism used to send signal through the chip. The signal can be sent from inside to outside and vice versa. The core is a place allocated for the placement of logic gates. The Die is the size of the entire chip.
+
+Inside the Core, multiple IP's(Intellectual Property) as well as Macros can be placed.
+
+Intellectual properties are pre designed macros provided by different entities for different purposes.
   
 - ![Image](https://github.com/user-attachments/assets/79d5ee54-5bf0-4345-8b64-e75c7415afb3)
 
