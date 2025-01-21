@@ -126,7 +126,11 @@ The SkyWater 130nm PDK is an open-source process design kit providing the necess
 
 ### Day 1: Exploring Open-Source EDA OpenLANE and Sky130 PDK
 
-- **Introduction**
+### How to talk to computers
+
+
+- **Introduction to QFN-48 package**
+   The QFN-48 is a Quad flat No-leads 48 pin package. It is a 7mmx7mm package with a height of 0.9mm.
 - ![Image](https://github.com/user-attachments/assets/79d5ee54-5bf0-4345-8b64-e75c7415afb3)
 
 - ![Image](https://github.com/user-attachments/assets/1dc4d72e-fece-4574-8ca2-d967d1f8c459)
