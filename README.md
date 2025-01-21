@@ -19,6 +19,7 @@ This repository chronicles the exploration of digital VLSI System on Chip (SoC) 
    - [Day 5: Finalizing RTL to GDSII with TritonRoute and OpenSTA](#day-5-finalizing-rtl-to-gdsii-with-tritonroute-and-opensta)
 6. [Acknowledgments](#acknowledgments)
 
+
 ## Introduction to ASIC Design
 
 Application-Specific Integrated Circuits (ASICs) are custom-designed chips tailored for specific applications offering optimized performance and efficiency The design process involves several stages from conceptualization to the final layout ready for fabrication
@@ -266,4 +267,20 @@ Intellectual properties are pre designed macros provided by different entities f
 
 Special thanks to the organizers and contributors of the workshop for providing valuable insights into digital VLSI SoC design and planning
 
+# Change directory to openlane
+cd Desktop/work/tools/openlane_working_dir/openlane
 
+# Clone the repository with custom inverter design
+git clone https://github.com/nickson-jose/vsdstdcelldesign
+
+# Change into repository directory
+cd vsdstdcelldesign
+
+# Copy magic tech file to the repo directory for easy access
+cp /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech .
+
+# Check contents whether everything is present
+ls
+
+# Command to open custom inverter layout in magic
+magic -T sky130A.tech sky130_inv.mag &
