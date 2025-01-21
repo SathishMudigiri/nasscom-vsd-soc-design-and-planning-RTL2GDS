@@ -195,6 +195,8 @@ Intellectual properties are pre designed macros provided by different entities f
   Once you run the synthesis an new file will be created under the runs directory in the picorv32a directory.
 
   Screenshots of running the code:
+  ![Image](https://github.com/user-attachments/assets/d47be14c-0086-48e8-b4b1-f8cc56841456)
+  
  - ![Image](https://github.com/user-attachments/assets/79d5ee54-5bf0-4345-8b64-e75c7415afb3)
 
  - ![Image](https://github.com/user-attachments/assets/1dc4d72e-fece-4574-8ca2-d967d1f8c459)
