@@ -97,6 +97,8 @@ The workshop leverages several open-source tools
 
 The SkyWater 130nm PDK is an open-source process design kit providing the necessary files and guidelines to design and fabricate integrated circuits at the 130nm technology node ([github.com](https://github.com/VLSIDesignByRahul/Digital-VLSI-SOC-DESIGN-AND-PLANNING?utm_source=chatgpt.com))
 
+![Image](https://github.com/user-attachments/assets/7c2c59a4-0e4c-48c2-926d-b9e75089501e)
+
 ## Workshop Breakdown
 
 ### Day 1: Exploring Open-Source EDA OpenLANE and Sky130 PDK
