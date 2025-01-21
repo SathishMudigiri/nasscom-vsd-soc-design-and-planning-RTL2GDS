@@ -175,10 +175,10 @@ Intellectual properties are pre designed macros provided by different entities f
 
   To get into OpenLANE flow we have to set our directory to
 
-  cd /home/vsduser/Desktop/work/tools/openlane_working_dir/openlane
+  cd/home/vsduser/Desktop/work/tools/openlane_working_dir/openlane
 
   To invoke the OpenLANE flow, we have to give the following commands
-
+  
    docker # this command enters us into the OpenLANE flow
 
   ./flow.tcl -interactive
@@ -199,7 +199,7 @@ Intellectual properties are pre designed macros provided by different entities f
   ![Image](https://github.com/user-attachments/assets/79d5ee54-5bf0-4345-8b64-e75c7415afb3)
   ![Image](https://github.com/user-attachments/assets/12019cef-c5b3-4ee0-b95f-cb48d43fb2d4)
 
- # Calculate the flop ratio
+ Calculate the flop ratio
  After running the synthesis, we get the following data
 
   ![Image](https://github.com/user-attachments/assets/1dc4d72e-fece-4574-8ca2-d967d1f8c459)
