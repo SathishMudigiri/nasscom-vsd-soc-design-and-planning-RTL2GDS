@@ -33,8 +33,10 @@ The transformation from RTL to GDSII encompasses
   The synthesis converts the RTL to a circuit out of components from the standard cell library. There are multiple different standard cells. Standard cells of the same component can have different areas based on the use case.
 
   ![Image](https://github.com/user-attachments/assets/b45c7be9-30b3-46be-a596-1a359870ee67)
+
   
-- **Floorplanning**: Determining the physical placement of components on the chip
+- **Floorplanning/Powerplaning**: Determining the physical placement of components on the chip
+
 - **Placement**:  Positioning standard cells within the floorplan
 ![Image](https://github.com/user-attachments/assets/98c993a1-786b-4f30-925d-aa934a41e2bc)
 - Positioning standard cells within the floorplan
