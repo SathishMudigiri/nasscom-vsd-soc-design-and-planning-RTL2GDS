@@ -176,7 +176,7 @@ Intellectual properties are pre designed macros provided by different entities f
 
   To get into OpenLANE flow we have to set our directory to
 
-  cd/home/vsduser/Desktop/work/tools/openlane_working_dir/openlane
+  cd/home/vsduser/Drking_dir/openlaneesktop/work/tools/openlane_wo
 
   To invoke the OpenLANE flow, we have to give the following commands
   
@@ -222,6 +222,8 @@ Intellectual properties are pre designed macros provided by different entities f
 - **Good vs. Bad Floorplans**: Identifying characteristics of effective floorplanning
 
 ![Image](https://github.com/user-attachments/assets/ee26608f-9a0c-4aff-b127-c505e033c486)
+
+We will be starting with a netlist that we intend to implement on this chip. We will convert the symbols present in our netlist into physical dimensions.
 
 ![Image](https://github.com/user-attachments/assets/71580075-d5be-439d-97bc-544d3ef89316)
 
