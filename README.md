@@ -241,12 +241,12 @@ We keep the utilization factor around 50%-60%
 ![Image](https://github.com/user-attachments/assets/292e0161-6cec-40e9-a1bd-54ef5048891d)
 ![Image](https://github.com/user-attachments/assets/1bfce38b-cec8-403f-9112-aa6e47d703a1)
 
- Pre Placed cells We can also have pre placed cells on the chip. We can divide a single block into multiple and implement them independently. There are multiple IP's  present like memory, clock generating cell, comparator, mux which come under pre placed cells.  
+ **Pre Placed cells** We can also have pre placed cells on the chip. We can divide a single block into multiple and implement them independently. There are multiple IP's  present like memory, clock generating cell, comparator, mux which come under pre placed cells.  
 ![Image](https://github.com/user-attachments/assets/75d014f9-fc26-419a-8f15-007acd087155)
 ![Image](https://github.com/user-attachments/assets/abd315a4-82ac-477f-8c6f-ff39f50ea151)
 ![Image](https://github.com/user-attachments/assets/c0507e3e-3bf4-458d-beae-d924e577d87b)
 
-Decoupling Capacitors If we have only one power source on the chip, if any combinational logic is far away from the voltage sources, it doesn't get all the power from the voltage source. For example, for a 1V voltage source, the combinational circuit will get only 0.7V which is not ideal as it can get out of the noise margin range and it will be difficult for the system to understand whether the input given is a 0 or a 1.
+**Decoupling Capacitors** If we have only one power source on the chip, if any combinational logic is far away from the voltage sources, it doesn't get all the power from the voltage source. For example, for a 1V voltage source, the combinational circuit will get only 0.7V which is not ideal as it can get out of the noise margin range and it will be difficult for the system to understand whether the input given is a 0 or a 1.
 
 To counter this, we use decoupling capacitors. Everytime the circuit switches, it draws current from the decoupling capacitor and uses the load resistance to replenish its charge.
 ![Image](https://github.com/user-attachments/assets/e3e5e6db-417f-4f54-b8c8-046a82c6e8dc)
@@ -266,7 +266,24 @@ To counter this, we use decoupling capacitors. Everytime the circuit switches, i
 **Logical cell placement blockage**, This step makes sure that cells are not placed in pin placement.
 ![Image](https://github.com/user-attachments/assets/b9b4d885-aff9-4751-aced-7b39b8bfb01d)
 
+## step to run floorplan ##
+The steps till run_synthesis are the same 
+    # Now we run floorplan 
+    run_floorplan
 
+
+According Floorplan def
+
+              1000 Unit Distance = 1Micron
+Die width in unit distance = 660685-0660685
+Die height in unit distance = 671405-0 = 671405
+
+Distance in microns = Value in Unit Distance / 1000
+
+Die width in microns = 660685/1000
+                     = 660.685 microns
+Die height in microns  = 671405/1000
+                       = 671.405
 ### Day 3: Crafting Library Cells with Magic Layout and Ngspice Characterization
 
 - **Magic Layout Tool**: Designing and editing layout geometries
