@@ -79,7 +79,7 @@ same component can have different areas based on the use case.
    ![Image](https://github.com/user-attachments/assets/839357ea-0eb7-4e56-acd1-19784a149e2f)
 
 
-  -**Sign-Off**: Verifying the design meets all specifications before fabrication
+  - **Sign-Off**: Verifying the design meets all specifications before fabrication
   
      The Sign Off contains the Physical Verifications like Design Rule Check(DRC) and Layout Vs. Schematic(LVS).
 
