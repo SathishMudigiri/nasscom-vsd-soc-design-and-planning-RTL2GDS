@@ -119,7 +119,7 @@ The workshop leverages several open-source tools
 
 ## SkyWater 130nm PDK
 
-The SkyWater 130nm PDK is an open-source process design kit providing the necessary files and guidelines to design and fabricate integrated circuits at the 130nm technology node ([github.com](https://github.com/VLSIDesignByRahul/Digital-VLSI-SOC-DESIGN-AND-PLANNING?utm_source=chatgpt.com))
+The SkyWater 130nm PDK is an open-source process design kit providing the necessary files and guidelines to design and fabricate integrated circuits at the 130nm technology node
 
 ![Image](https://github.com/user-attachments/assets/7c2c59a4-0e4c-48c2-926d-b9e75089501e)
 
@@ -182,7 +182,7 @@ Intellectual properties are pre designed macros provided by different entities f
   
    docker # this command enters us into the OpenLANE flow
 
-  ./flow.tcl -interactive
+./flow.tcl -interactive
 
   #We need to open the necessary packages
    package require openlane 0.9
