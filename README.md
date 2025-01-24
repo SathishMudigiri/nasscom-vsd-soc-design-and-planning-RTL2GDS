@@ -276,7 +276,9 @@ The steps till run_synthesis are the same
     # Now we run floorplan 
     
     run_floorplan
+![Image](https://github.com/user-attachments/assets/6c6ca61d-308c-4102-ab86-f78ab527e69a)
 
+![Image](https://github.com/user-attachments/assets/50588c2a-ab3b-49bd-94cb-5bd1c9f7aca2)
 
 According Floorplan def
 
