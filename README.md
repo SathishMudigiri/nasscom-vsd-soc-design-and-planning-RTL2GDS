@@ -227,6 +227,7 @@ We will be starting with a netlist that we intend to implement on this chip. We 
 
 ![Image](https://github.com/user-attachments/assets/71580075-d5be-439d-97bc-544d3ef89316)
 
+Using these standard cells, we will find the area of the netlist as well as its utilization factor.
 ![Image](https://github.com/user-attachments/assets/e4f98273-fd96-4262-b4ae-0a0177177812)
 
 ![Image](https://github.com/user-attachments/assets/680e8512-71ff-433a-be06-23114d429c4e)
