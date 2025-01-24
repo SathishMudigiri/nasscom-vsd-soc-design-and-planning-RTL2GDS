@@ -254,10 +254,10 @@ To counter thiswe use decoupling capacitors. Everytime the circuit switches, it 
 ![Image](https://github.com/user-attachments/assets/afc237e4-ad1a-4223-96fc-f326a6f81e6f)
 ![Image](https://github.com/user-attachments/assets/2833ed7d-2da4-4ae0-8528-0dfadf86e3bc)
 ![Image](https://github.com/user-attachments/assets/e2cc6b2f-4406-487a-b586-132477ec3c4c)
+
+**Power Planning In power planning**, we decide how to place the Vdd and Ground pins. If there are multiple combinational logic cells across the chip, we use multiple power pins.
 ![Image](https://github.com/user-attachments/assets/f7a443cb-7d2c-4d64-b01c-96c140f785aa)
 ![Image](https://github.com/user-attachments/assets/f3c3f0ba-53ed-48e0-b928-b83636a025e1)
-
-
 ![Image](https://github.com/user-attachments/assets/e29aeed5-2783-40b2-b5c4-0ec81d9f009d)
 
 **Pin Placement In pin placement**, we should know the block placement to optimize the pin placement.
