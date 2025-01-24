@@ -268,21 +268,26 @@ To counter this, we use decoupling capacitors. Everytime the circuit switches, i
 
 ## step to run floorplan ##
 The steps till run_synthesis are the same 
+
     # Now we run floorplan 
+    
     run_floorplan
 
 
 According Floorplan def
 
               1000 Unit Distance = 1Micron
-Die width in unit distance = 660685-0660685
-Die height in unit distance = 671405-0 = 671405
+              
+           Die width in unit distance = 660685-0660685
+           
+           Die height in unit distance = 671405-0 = 671405
 
-Distance in microns = Value in Unit Distance / 1000
+         Distance in microns = Value in Unit Distance / 1000
 
-Die width in microns = 660685/1000
+         Die width in microns = 660685/1000
                      = 660.685 microns
-Die height in microns  = 671405/1000
+                     
+         Die height in microns  = 671405/1000
                        = 671.405
 ### Day 3: Crafting Library Cells with Magic Layout and Ngspice Characterization
 
