@@ -244,12 +244,11 @@ We keep the utilization factor around 50%-60%
  Pre Placed cells We can also have pre placed cells on the chip. We can divide a single block into multiple and implement them independently. There are multiple IP's  present like memory, clock generating cell, comparator, mux which come under pre placed cells.  
 ![Image](https://github.com/user-attachments/assets/75d014f9-fc26-419a-8f15-007acd087155)
 ![Image](https://github.com/user-attachments/assets/abd315a4-82ac-477f-8c6f-ff39f50ea151)
+![Image](https://github.com/user-attachments/assets/c0507e3e-3bf4-458d-beae-d924e577d87b)
 
 Decoupling Capacitors If we have only one power source on the chip, if any combinational logic is far away from the voltage sources, it doesn't get all the power from the voltage source. For example, for a 1V voltage source, the combinational circuit will get only 0.7V which is not ideal as it can get out of the noise margin range and it will be difficult for the system to understand whether the input given is a 0 or a 1.
 
-To counter thiswe use decoupling capacitors. Everytime the circuit switches, it draws current from the decoupling capacitor and uses the load resistance to replenish its charge.
-![Image](https://github.com/user-attachments/assets/c0507e3e-3bf4-458d-beae-d924e577d87b)
-
+To counter this, we use decoupling capacitors. Everytime the circuit switches, it draws current from the decoupling capacitor and uses the load resistance to replenish its charge.
 ![Image](https://github.com/user-attachments/assets/e3e5e6db-417f-4f54-b8c8-046a82c6e8dc)
 ![Image](https://github.com/user-attachments/assets/afc237e4-ad1a-4223-96fc-f326a6f81e6f)
 ![Image](https://github.com/user-attachments/assets/2833ed7d-2da4-4ae0-8528-0dfadf86e3bc)
