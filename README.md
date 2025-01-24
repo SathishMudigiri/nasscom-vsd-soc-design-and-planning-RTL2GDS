@@ -257,8 +257,10 @@ To counter thiswe use decoupling capacitors. Everytime the circuit switches, it 
 ![Image](https://github.com/user-attachments/assets/f7a443cb-7d2c-4d64-b01c-96c140f785aa)
 ![Image](https://github.com/user-attachments/assets/f3c3f0ba-53ed-48e0-b928-b83636a025e1)
 
-**Pin Placement In pin placement**, we should know the block placement to optimize the pin placement.
+
 ![Image](https://github.com/user-attachments/assets/e29aeed5-2783-40b2-b5c4-0ec81d9f009d)
+
+**Pin Placement In pin placement**, we should know the block placement to optimize the pin placement.
 ![Image](https://github.com/user-attachments/assets/ef9159fd-a582-499e-a512-13c0c33a42f8)
 ![Image](https://github.com/user-attachments/assets/68fb7367-ceb6-45c5-998d-ccd34daee373)
 
